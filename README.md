@@ -1,4 +1,4 @@
-# 🐍💻 LockForce & Decryptor — Python Ransomware Simulation
+# 🐍💻 LockForce & Decryptor — Python Security Simulation
 
 ![Python](https://img.shields.io/badge/Made%20With-Python-306998?style=for-the-badge&logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/For-Education%20Only-orange?style=for-the-badge)
