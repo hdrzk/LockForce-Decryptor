@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="banner.png" alt="LockForce Banner" width="100%">
+</p>
+
+
 # 🐍💻 LockForce & Decryptor — Python Security Simulation
 
 ![Python](https://img.shields.io/badge/Made%20With-Python-306998?style=for-the-badge&logo=python&logoColor=white)
